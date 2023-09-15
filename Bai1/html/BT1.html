@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập 1_Tuần 2</title>
+    <style>
+        form{
+            border: solid red 2px;
+            width: 90%;
+            height: 813px;
+            margin: auto;
+        }
+        section{
+            width: 100%;
+            height: 631px;
+            border: solid red 2px;
+        }
+        #left{
+            width: 20%;
+            height: fit-content;
+            float: left;
+        }
+        #right{
+            width: 30%;
+            height: fit-content;
+            float: left;
+            background-color: black;
+            color: aliceblue;
+        }
+        article{
+            width: 50%;
+            float: left;
+            height: 620px;
+        }
+        h2{
+            margin-left: 50px;
+            margin-right: 50px;
+            color: red;
+            background-color: darkkhaki;
+            text-align: center;
+        }
+        a{
+            text-decoration: none; 
+            margin-left: 2px;
+        }
+        #b{
+            color: orange;
+            text-transform: uppercase;
+        }
+        h1{
+            text-align: center;
+            text-shadow: 10px 20px 10px;
+        }
+        u{
+            color: red;
+        }
+        p{
+            margin-left: 2px;
+        }
+        #c{
+            margin-top:10px;
+        }
+        nav{
+            text-align: center;
+            background-color: indianred;
+            height: 50px;
+            border-top: solid red 2px;
+        
+        }
+        #menu ul{
+            background-color: palevioletred;
+            width: 50%;
+            padding: 0;
+            list-style-type: none;
+            text-align: center;
+        }
+        #menu li{
+            width: auto;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 10px solid;
+            padding: 10 1em;
+        }
+        #menu li:hover{
+            text-decoration: none;
+            display: block;
+            background: pink;
+        }
+        .img{
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+			border-bottom-right-radius: 50%;
+			border-top-left-radius: 50%;
+            box-shadow: 10px 10px 10px pink;
+        }
+        #m{
+            margin-left: 7px;
+        }
+        footer{
+            background-color: palevioletred;
+            color: aliceblue;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            width: 100%;
+            height: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1 id="b">example cafe menu</h1>
+        
+        <nav><a href="../html/BT1.html" id="c"><img src="../img/B1/home.png" width="20px" height="24px" id="c"> |</a>
+            <a href="#" id="c">Starter | </a><a href="#" id="c">Main Courses | </a><a href="#" id="c">Desserts |</a> 
+            <input type="text" id="c"> <input type="submit" value="Go" id="c">
+        </nav>
+        <section>
+            <div id="left">
+                <div id="menu">
+                    <ul>
+                        <li>Cafe Latte</li>
+                        <li>Capuchiano</li>
+                        <li>Ocean Blue</li>
+                        <li>Ice-cream Cafe</li>
+                        <li>Order Online</li>
+                </div>
+                <img src="../img/B1/quan.png" width="150px" height="120px" class="img"> 
+            </div>
+            <article>
+                <h2>Starter</h2>
+                <ul>
+                    <li>Chesenut and Mushroom Goujoins <a href="#"><u>(v)</u></a></li>
+                    <li>Goat Cheese <a href="#"><u>(v)</u></a></li>
+                    <li id="b">honey soy chicken kebabs <a href="#"><u>(v)</u></a></li>
+                    <li>Seafood Salad <a href="#"><u>(v)</u></a></li>
+                </ul>
+                <p><u>Back to Top</u></p>
+                <h2>Desserts</h2>
+                <ul>
+                    <li>Lemon Sorbet<a href="#"><u>(v)</u></a></li>
+                    <li>Chocolate Mud Pie<a href="#"><u>(v)</u></a></li>
+                    <li>Pecan Pie<a href="#"><u>(v)</u></a></li>
+                    <li>Selection of fine Cheeses from Around the World<a href="#"><u>(v)</u></a></li>
+                </ul>
+                <p><u>Back to Top</u></p>
+                <h2>INFOMATION</h2>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="text" value="First name" width="23%"></td>
+                        <td><input type="text" value="Last name*" width="23%"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" value="Email" width="23%"></td>
+                        <td><input type="text" value="Telephone" width="23%"></td>
+                    </tr>
+                    <tr>
+                        <td><select style="width: 23%;">
+                            <option>USA</option>
+                            <option>China</option>
+                            <option>Korea</option>
+                        </select></td>
+                        <td>
+                            <input type="radio" name="ch" value="1">Vietnamese
+                            <input type="radio" name="ch" value="2">Foreigner
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><textarea name="" value="Comment" cols="30" rows="3"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Cancel">
+                        </td>
+                    </tr>
+                </table>    
+            </article>
+            <div id="right">
+                <h2 style="background: none; color: aliceblue; text-align: left;">Events</h2>
+                <h3 id="m">Regular Meetings</h3>
+                <img src="../img/B1/hop.png" width="300px" height="150px" id="m"><br>
+                <p id="m">Host your regular team meetings or activities in the comfort of your own private room.
+                     <a href="#" style="color: plum;"><u>Read more...</u></a></p><br>
+                <h3 id="m">Product Launches</h3>
+                <img src="../img/B1/nghe.png"  width="300px" height="150px" id="m"><br>
+                <p id="m">Launch your product with ease in a space that truly fits its image. <a href="#" style="color: plum;"><u>Read more...</u></a></p>
+
+            </div>
+        </section>
+        <footer>
+            <i>ABC Company<sup>&copy;</sup> - 12345678 - abccoffee@gmail.com</i>
+        </footer>
+    </form>
+</body>
+</html>
